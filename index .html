@@ -1,0 +1,1220 @@
+<!DOCTYPE html>
+<html lang="en" style="font-size: 100%">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+     <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+      <link rel="stylesheet" href="assets/css/main.css">
+      <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap-grid.css">
+      <link rel="shortcut icon" href="assets/img/fav-icon.png" type="image/x-icon">
+
+    <title>Nazir's Portfolio Website</title>
+  </head>
+  <body class=" ">
+    <div>
+      <i
+        class="fixed top-5 right-6 text-white bg-sky-400 bg-opacity-80 h-6 w-6 pl-[2px] header-toggle bi bi-list text-xl rounded-full mb-4 cursor-pointer z-10"
+        id="toggle"
+      ></i>
+    </div>
+
+    <header
+      id="header"
+      class="fixed -translate-x-full transition-all duration-300 overflow-y-auto h-screen md:w-1/4 w-1/2 flex-col items-center bg-slate-950 py-8 z-10 flex"
+    >
+      <div class="profile-img mb-4">
+        <img
+          src="assets/img/profile.jpg"
+          alt=""
+          class="rounded-full w-32 h-32 object-cover border-4 border-gray-700"
+        />
+      </div>
+
+      <a href="index.html" class="flex flex-col items-center mb-4">
+        
+        <h1 class="sitename text-2xl font-bold text-white">Nazir Sherzad</h1>
+      </a>
+
+      <div class="flex space-x-3 mb-6 transition-all duration-300">
+        <a href="#" class="text-gray-400 hover:text-white"
+          ><i
+            class="bi bi-twitter-x bg-gray-400 rounded-full p-2 bg-opacity-20 hover:bg-sky-500"
+          ></i
+        ></a>
+        <a href="https://www.facebook.com/share/18a8YAY9Pb/?mibextid=wwXIfr" class="text-gray-400 hover:text-white"
+          ><i
+            class="bi bi-facebook bg-gray-400 rounded-full p-2 bg-opacity-20 hover:bg-sky-500"
+          ></i
+        ></a>
+        <a href="https://www.instagram.com/na_zir_1?igsh=MTI3OGl1ZzR3Z210cw%3D%3D&utm_source=qr" class="text-gray-400 hover:text-white"
+          ><i
+            class="bi bi-instagram bg-gray-400 rounded-full p-2 bg-opacity-20 hover:bg-sky-500"
+          ></i
+        ></a>
+        <a href="https://wa.link/gijp45" class="text-gray-400 hover:text-white"
+          ><i
+            class="bi bi-whatsapp bg-gray-400 rounded-full p-2 bg-opacity-20 hover:bg-sky-500"
+          ></i
+        ></a>
+        <a href="#" class="text-gray-400 hover:text-white"
+          ><i
+            class="bi bi-linkedin bg-gray-400 rounded-full p-2 bg-opacity-20 hover:bg-sky-500"
+          ></i
+        ></a>
+      </div>
+
+      <nav id="navmenu" class="w-full">
+        <ul class="flex flex-col space-y-8 pl-4 text-gray-400">
+          <li>
+            <a
+              href="#hero"
+              class="flex items-center hover:text-white font-normal"
+              ><i class="bi bi-house mr-2 text-blue-400"></i>Home</a
+            >
+          </li>
+          <li>
+            <a href="#about" class="flex items-center hover:text-white"
+              ><i class="bi bi-person mr-2"></i> About</a
+            >
+          </li>
+          <li>
+            <a href="#resume" class="flex items-center hover:text-white"
+              ><i class="bi bi-file-earmark-text mr-2"></i> Resume</a
+            >
+          </li>
+          <li>
+            <a href="#portfolio" class="flex items-center hover:text-white"
+              ><i class="bi bi-images mr-2"></i> Portfolio</a
+            >
+          </li>
+         
+          <li>
+            <a href="#contact" class="flex items-center hover:text-white"
+              ><i class="bi bi-envelope mr-2"></i> Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section id="hero" class="relative bg-gray-900">
+        <img
+          src="assets/img/hero.png"
+          alt=""
+          class="absolute inset-0 w-full h-[30rem] md:object-top object-cover opacity-35"
+        />
+        <div
+          class="relative container mx-auto md:pl-10 h-screen py-32 flex flex-col items-start"
+        >
+          <h2 class="text-4xl font-bold mb-4 text-white">Nazir Shirzad</h2>
+          <p class="text-xl text-white">
+            I'm
+            <span
+              class="typed text-blue-400 border-b-2 border-blue-400"
+              data-typed="Designer, Developer, Freelancer, Full-Stack Web developer"
+              >Designer</span
+            >
+          </p>
+        </div>
+      </section>
+      <!-- /Hero Section -->
+
+      <!-- About Section -->
+      <section id="about" class="py-16 text-white bg-gray-900">
+        <div class="container mx-auto mb-12">
+          <h2 class="text-3xl font-bold mb-4 text-white">About</h2>
+          <p class="text-gray-300">
+            I’m Mohammad Nazir Sherzad a full-stack developer from Kabul
+            crafting polished front-ends using CSS and Tailwind and building
+            reliable back-ends with Django. Currently in my third semester, I’m
+            focused on transforming ideas into intuitive, web applications.
+          </p>
+        </div>
+        <div
+          class="container mx-auto flex flex-col lg:flex-row items-center gap-8"
+        >
+          <div class="lg:w-1/3 w-full flex justify-center">
+            <img
+              src="assets/img/about.jpg"
+              class="rounded-lg w-64 h-64 object-cover relative"
+             
+              alt=""
+            />
+            
+          </div>
+          <div class="lg:w-2/3 w-full">
+            <h2 class="text-2xl font-semibold mb-2 text-white">
+              UI/UX Designer &amp; Full-stack Developer.
+            </h2>
+            <p class="italic text-gray-400 mb-4">
+              All information about me
+            </p>
+            <div class="flex flex-col md:flex-row gap-8 mb-4">
+              <ul class="space-y-2">
+                <li>
+                  <strong>Birthday:</strong>
+                  <span class="text-gray-300">1 May 1998</span>
+                </li>
+                <li>
+                  <strong>Website:</strong>
+                  <span class="text-gray-300">None</span>
+                </li>
+                <li>
+                  <strong>Phone:</strong>
+                  <span class="text-gray-300">(+93) 782-77-67-66</span>
+                </li>
+                <li>
+                  <strong>City:</strong>
+                  <span class="text-gray-300">Kabul, Afghanistan</span>
+                </li>
+              </ul>
+              <ul class="space-y-2">
+                <li>
+                  <strong>Age:</strong> <span class="text-gray-300">27</span>
+                </li>
+                <li>
+                  <strong>Degree:</strong>
+                  <span class="text-gray-300">Expected Graduation:2027</span>
+                </li>
+                <li>
+                  <strong>Email:</strong>
+                  <span class="text-gray-300">nazirsherzad12345@gmail.com</span>
+                </li>
+                <li>
+                  <strong>Freelance:</strong>
+                  <span class="text-gray-300">Available</span>
+                </li>
+              </ul>
+            </div>
+           
+          </div>
+        </div>
+      </section>
+      <!-- /About Section -->
+
+      <!-- Stats Section -->
+       <section id="stats" class="stats section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-emoji-smile"></i>
+              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Happy Clients</strong> <span>consequuntur quae</span></p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-journal-richtext"></i>
+              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Projects</strong> <span>adipisci atque cum quia aut</span></p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-headset"></i>
+              <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Hours Of Support</strong> <span>aut commodi quaerat</span></p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-people"></i>
+              <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Hard Workers</strong> <span>rerum asperiores dolor</span></p>
+            </div>
+          </div><!-- End Stats Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Stats Section -->
+
+      <!-- Skills Section -->
+      <section id="skills" class="skills bg-slate-200 pb-12 my-12 p-6">
+        <!-- Section Title -->
+        <div class="section-title" data-aos="fade-up">
+          <h2 class=" inline pb-2">Skills</h2>
+          <p class="text-gray-400 mt-8">
+            My polished skills in various fields of web development and design.  
+          </p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container mx-auto mt-8" data-aos="fade-up" data-aos-delay="100">
+          <div class="flex flex-col md:flex-row sm:items-center sm:justify-center space-x-4 mx-auto skills-content skills-animation md:space-y-0 sm:space-y-4">
+            <div class="sm:ml-3 w-1/2 space-y-4">
+              <div class="progress">
+                <span class="skill flex justify-between"
+                  ><span>HTML</span> <i class="val">100%</i></span
+                >
+                <div class="progress-bar-wrap bg-gray-300 h-2 rounded-full">
+                  <div
+                    class="progress-bar w-0 h-2 rounded-full"
+                    role="progressbar"
+                    aria-valuenow="100"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill flex justify-between"
+                  ><span>CSS</span> <i class="val">90%</i></span
+                >
+                <div class="progress-bar-wrap bg-gray-300 h-2 rounded-full">
+                  <div
+                    class="progress-bar w-0 h-2 rounded-full"
+                    role="progressbar"
+                    aria-valuenow="90"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill flex justify-between"
+                  ><span>JavaScript</span> <i class="val">60%</i></span
+                >
+                <div class="progress-bar-wrap bg-gray-300 h-2 rounded-full ">
+                  <div
+                    class="progress-bar w-0 h-2 rounded-full"
+                    role="progressbar"
+                    aria-valuenow="60"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <!-- End Skills Item -->
+            </div>
+
+            <div class="w-1/2 space-y-4">
+              <div class="progress">
+                <span class="skill flex justify-between"
+                  ><span>Django</span> <i class="val">70%</i></span
+                >
+                <div class="progress-bar-wrap bg-gray-300 h-2 rounded-full">
+                  <div
+                    class="progress-bar w-0 h-2 rounded-full"
+                    role="progressbar"
+                    aria-valuenow="70"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill flex justify-between"
+                  ><span>Tailwindcss</span> <i class="val">90%</i></span
+                >
+                <div class="progress-bar-wrap bg-gray-300 h-2 rounded-full">
+                  <div
+                    class="progress-bar w-0 h-2 rounded-full"
+                    role="progressbar"
+                    aria-valuenow="90"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill flex justify-between"
+                  ><span>Python</span> <i class="val">95%</i></span
+                >
+                <div class="progress-bar-wrap bg-gray-300 h-2 rounded-full ">
+                  <div
+                    class="progress-bar w-0 h-2 rounded-full"
+                    role="progressbar"
+                    aria-valuenow="95"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <!-- End Skills Item -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Skills Section -->
+
+      <!-- Resume Section -->
+       
+      <section id="resume" class="resume container mx-auto p-4">
+        <!-- Section Title -->
+        <div class=" section-title" data-aos="fade-up">
+          <h2 class=" text-2xl font-bold mb-12 pb-[4px]">Resume</h2>
+          <p class="text-gray-400 my-8">
+            My educational background and professional experience in the field
+            of web development and design are outlined below for your review.
+          </p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container mx-auto ">
+          <div class="flex flex-col md:flex-row gap-8">
+            <div class="" data-aos="fade-up" data-aos-delay="100">
+              <h3 class="resume-title text-xl font-bold mb-4">Sumary</h3>
+
+              <div class="resume-item pb-0 border-l-2 border-blue-400 pl-2 mb-8">
+                
+                <p class="text-gray-600 mb-1 text-sm">
+                  Dedicated and motivated professional with strong background in finance 
+                  management assistance, coding, and language learning. Skilled in 
+                  <strong>HTML, CSS, JavaScript, Python, and C++</strong> with hands-on 
+                  project experience. Recognized as a top performer in academics, sports, 
+                  and extracurricular activities, with a proven track record of leadership, 
+                  teamwork, and problem-solving abilities.
+                </p>
+                
+              </div>
+              <!-- Edn Resume Item -->
+
+              <h3 class="resume-title text-xl font-bold mb-4">Education</h3>
+              <div class="resume-item pb-0 border-l-2 border-blue-400 pl-2">
+                <h4>Sayed Noor Mohammad Shah Mina high School</h4>
+                <h5 class="text-gray-800 mb-1 text-sm">2005 - 2017</h5>
+                <p class="text-gray-600 mb-1 text-sm"><em> Received best students & appreciation certificates for good performence</em></p>
+                <p class="text-gray-600 mb-1 text-sm">
+                  Position holder in many extra activities and sports
+                  <br/>
+                  Active participant of shcool journal
+                </p>
+              </div>
+              <!-- Edn Resume Item -->
+
+              <div class="resume-item pb-0 border-l-2 border-blue-400 pl-2">
+                <h4>Certificate in Muslim English Langauge Institute</h4>
+                <h5 class="text-gray-600 mb-1 text-sm">2023 - 2024</h5>
+                <p class="text-gray-600 mb-1 text-sm"><em>Active in all extracurricular activities</em></p>
+                <p class="text-gray-600 mb-1 text-sm">
+                  First position holder of the class <br/>
+                  Active member in lingual research based activities
+                </p>
+              </div>
+              <!-- Edn Resume Item -->
+              
+            </div>
+            
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+               <div class="resume-item pb-0 border-l-2 border-blue-400 pl-2">
+                <h4>Certified in Solo Learn and Udemy Online Learing platforms</h4>
+                
+                <p class="text-gray-600 mb-1 text-sm"><em> completed all coding task and challanges </em></p>
+                <p class="text-gray-600 mb-1 text-sm">
+                  Certified in HTML, CSS, JavaScript, Python and C++  <br/>
+                  Completed coding challanges in Chief Code Website upto 1000 diffeculty level <br/> completed 10+ projects in different coding languages
+                </p>
+              </div>
+              <h3 class="resume-title text-xl font-bold mb-4">Professional Experience</h3>
+              <div class="resume-item pb-0 border-l-2 border-blue-400 pl-2 mb-0">
+                <h4>Finance Manager Assisstant</h4>
+                <h5 class="text-gray-600 mb-1 text-sm">2018 - 2022</h5>
+                <p class="text-gray-600 mb-1 text-sm"><em>Ahmadi Business center Kabul, Afghanistan </em></p>
+                <ul class="list-disc ml-4 text-gray-600 mb-1 text-sm">
+                  <li>
+                    Managing financial transactions and records
+                  </li>
+                  <li>
+                    Assisting in budget preparation and financial planning
+                  </li>
+                  <li>
+                    Preparing financial reports and statements
+                  </li>
+                  <li>
+                   contracting with clients and suppliers
+                  </li>
+                </ul>
+              </div>
+              <!-- Edn Resume Item -->
+
+              <!-- Edn Resume Item -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Resume Section -->
+
+      <!-- Portfolio Section -->
+      <section id="portfolio" class="portfolio section light-background">
+        <!-- Section Title -->
+        <div class="container mx-auto section-title" data-aos="fade-up">
+          <h2>Portfolio</h2>
+          <p>
+            My recent work and projects in web development and design are
+            showcased below.
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container mx-auto">
+          <div
+            class="isotope-layout"
+            data-default-filter="*"
+            data-layout="masonry"
+            data-sort="original-order"
+          >
+            <ul
+              class="portfolio-filters isotope-filters"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-front">Frontends</li>
+              <li data-filter=".filter-back">back-ends</li>
+              <li data-filter=".filter-game">Games</li>
+              
+            </ul>
+            <!-- End Portfolio Filters -->
+
+            <div
+              class="isotope-container"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-front"
+               >
+                <div class="portfolio-content h-100">
+                  <img
+                    src="assets/img/portfolio/fylo.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="portfolio-info">
+                    <h4>Flyo</h4>
+                    <p>Flyo project with taiwind</p>
+                    <a
+                      href="assets/img/portfolio/fylo.png"
+                      title="App 1"
+                      data-gallery="front"
+                      class="glightbox preview-link"
+                      ><i class="bi bi-zoom-in"></i
+                    ></a>
+                    <a
+                      href="https://dashing-manatee-091045.netlify.app/"
+                      title="More Details"
+                      class="details-link"
+                      ><i class="bi bi-link-45deg"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-front"
+               >
+                <div class="portfolio-content h-full">
+                  <img
+                    src="assets/img/portfolio/loopstudios.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="portfolio-info">
+                    <h4>Loopstudios</h4>
+                    <p>Simple Website with tailwind</p>
+                    <a
+                      href="assets/img/portfolio/loopstudios.png"
+                      title="Product 1"
+                      data-gallery="front"
+                      class="glightbox preview-link"
+                      ><i class="bi bi-zoom-in"></i
+                    ></a>
+                    <a
+                      href="https://animated-faun-590feb.netlify.app/"
+                      title="More Details"
+                      class="details-link"
+                      ><i class="bi bi-link-45deg"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-back"
+              >
+                <div class="portfolio-content h-100">
+                  <img
+                    src="assets/img/portfolio/mapty.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="portfolio-info">
+                    <h4>Mapty</h4>
+                    <p>Workout Map add your walking and cycling Workouts to map</p>
+                    <a
+                      href="assets/img/portfolio/mapty.png"
+                      title="Branding 1"
+                      data-gallery="back-end"
+                      class="glightbox preview-link"
+                      ><i class="bi bi-zoom-in"></i
+                    ></a>
+                    <a
+                      href="https://workoutmapnazir.netlify.app/"
+                      title="More Details"
+                      class="details-link"
+                      ><i class="bi bi-link-45deg"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-front"
+              >
+                <div class="portfolio-content h-100">
+                  <img
+                    src="assets/img/portfolio/clipboard.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="portfolio-info">
+                    <h4>App web</h4>
+                    <p>A Website for your app</p>
+                    <a
+                      href="assets/img/portfolio/clipboard.png"
+                      title="Branding 1"
+                      data-gallery="front"
+                      class="glightbox preview-link"
+                      ><i class="bi bi-zoom-in"></i
+                    ></a>
+                    <a
+                      href=""
+                      title="More Details"
+                      class="details-link"
+                      ><i class="bi bi-link-45deg"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+             
+              <!-- End Portfolio Item -->
+
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-back"
+              >
+                <div class="portfolio-content h-100">
+                  <img
+                    src="assets/img/portfolio/django blog.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="portfolio-info">
+                    <h4>Django</h4>
+                    <p>Django project back-end</p>
+                    <a
+                      href="assets/img/portfolio/django blog.png"
+                      title="Product 2"
+                      data-gallery="back-end"
+                      class="glightbox preview-link"
+                      ><i class="bi bi-zoom-in"></i
+                    ></a>
+                    <a
+                      href="https://django-project-production-30e3.up.railway.app/"
+                      title="More Details"
+                      class="details-link"
+                      ><i class="bi bi-link-45deg"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-back"
+              >
+                <div class="portfolio-content h-full">
+                  <img
+                    src="assets/img/portfolio/portal.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="portfolio-info">
+                    <h4>Portal</h4>
+                    <p>University Portal Student Marks</p>
+                    <a
+                      href="assets/img/portfolio/portal.png"
+                      title="Branding 2"
+                      data-gallery="back-end"
+                      class="glightbox preview-link"> 
+                      <i class="bi bi-zoom-in"></i
+                    ></a>
+                    <a
+                      href="https://new-portal-two.vercel.app/"
+                      title="More Details"
+                      class="details-link"
+                      ><i class="bi bi-link-45deg"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books"
+              >
+                <div class="portfolio-content h-100">
+                  <img
+                    src="assets/img/portfolio/ominofood.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="portfolio-info">
+                    <h4>Omnifood</h4>
+                    <p>A web all with css</p>
+                    <a
+                      href="assets/img/portfolio/ominofood.png"
+                      title="Branding 2"
+                      data-gallery="front"
+                      class="glightbox preview-link"
+                      ><i class="bi bi-zoom-in"></i
+                    ></a>
+                    <a
+                      href="https://restuarant-resposive-page.netlify.app/"
+                      title="More Details"
+                      class="details-link"
+                      ><i class="bi bi-link-45deg"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+           
+              <!-- End Portfolio Item -->
+                <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-game"
+              >
+                <div class="portfolio-content h-100">
+                  <img
+                    src="assets/img/portfolio/pig game.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="portfolio-info h-full">
+                    <h4>Game</h4>
+                    <p>A simple game to play vs AI or friend</p>
+                    <a
+                      href="assets/img/portfolio/pig game.png"
+                      title="App 2"
+                      data-gallery="game"
+                      class="glightbox preview-link"
+                      ><i class="bi bi-zoom-in"></i
+                    ></a>
+                    <a
+                      href="https://myfirstinteractivepage.netlify.app/"
+                      title="More Details"
+                      class="details-link"
+                      ><i class="bi bi-link-45deg"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Portfolio Container -->
+          </div>
+        </div>
+      </section>
+      <!-- /Portfolio Section -->
+
+      <!-- Services Section -->
+      <section id="services" class="services section hidden">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Services</h2>
+          <p>
+            Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
+            aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
+            quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
+            fugiat sit in iste officiis commodi quidem hic quas.
+          </p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container">
+          <div class="row gy-4">
+            <div
+              class="col-lg-4 col-md-6 service-item d-flex"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="icon flex-shrink-0">
+                <i class="bi bi-briefcase"></i>
+              </div>
+              <div>
+                <h4 class="title">
+                  <a href="service-details.html" class="stretched-link"
+                    >Lorem Ipsum</a
+                  >
+                </h4>
+                <p class="description">
+                  Voluptatum deleniti atque corrupti quos dolores et quas
+                  molestias excepturi sint occaecati cupiditate non provident
+                </p>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div
+              class="col-lg-4 col-md-6 service-item d-flex"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="icon flex-shrink-0">
+                <i class="bi bi-card-checklist"></i>
+              </div>
+              <div>
+                <h4 class="title">
+                  <a href="service-details.html" class="stretched-link"
+                    >Dolor Sitema</a
+                  >
+                </h4>
+                <p class="description">
+                  Minim veniam, quis nostrud exercitation ullamco laboris nisi
+                  ut aliquip ex ea commodo consequat tarad limino ata
+                </p>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div
+              class="col-lg-4 col-md-6 service-item d-flex"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="icon flex-shrink-0">
+                <i class="bi bi-bar-chart"></i>
+              </div>
+              <div>
+                <h4 class="title">
+                  <a href="service-details.html" class="stretched-link"
+                    >Sed ut perspiciatis</a
+                  >
+                </h4>
+                <p class="description">
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur
+                </p>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div
+              class="col-lg-4 col-md-6 service-item d-flex"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <div class="icon flex-shrink-0">
+                <i class="bi bi-binoculars"></i>
+              </div>
+              <div>
+                <h4 class="title">
+                  <a href="service-details.html" class="stretched-link"
+                    >Magni Dolores</a
+                  >
+                </h4>
+                <p class="description">
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                  qui officia deserunt mollit anim id est laborum
+                </p>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div
+              class="col-lg-4 col-md-6 service-item d-flex"
+              data-aos="fade-up"
+              data-aos-delay="500"
+            >
+              <div class="icon flex-shrink-0">
+                <i class="bi bi-brightness-high"></i>
+              </div>
+              <div>
+                <h4 class="title">
+                  <a href="service-details.html" class="stretched-link"
+                    >Nemo Enim</a
+                  >
+                </h4>
+                <p class="description">
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                  blanditiis praesentium voluptatum deleniti atque
+                </p>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div
+              class="col-lg-4 col-md-6 service-item d-flex"
+              data-aos="fade-up"
+              data-aos-delay="600"
+            >
+              <div class="icon flex-shrink-0">
+                <i class="bi bi-calendar4-week"></i>
+              </div>
+              <div>
+                <h4 class="title">
+                  <a href="service-details.html" class="stretched-link"
+                    >Eiusmod Tempor</a
+                  >
+                </h4>
+                <p class="description">
+                  Et harum quidem rerum facilis est et expedita distinctio. Nam
+                  libero tempore, cum soluta nobis est eligendi
+                </p>
+              </div>
+            </div>
+            <!-- End Service Item -->
+          </div>
+        </div>
+      </section> 
+      <!-- /Services Section -->
+
+      <!-- Testimonials Section -->
+      <section id="testimonials" class="testimonials section light-background">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Testimonials</h2>
+          <p>
+            see what others are saying about my work and professionalism.
+          </p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container " data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper init-swiper">
+            <script type="application/json" class="swiper-config swiper-tab">
+              {
+                "loop": true,
+                "speed": 600,
+                "autoplay": {
+                  "delay": 5000
+                },
+                "slidesPerView": "auto",
+                "pagination": {
+                  "el": ".swiper-pagination",
+                  "type": "bullets",
+                  "clickable": true
+                },
+                "breakpoints": {
+                  "320": {
+                    "slidesPerView": 1,
+                    "spaceBetween": 40
+                  },
+                  "1200": {
+                    "slidesPerView": 3,
+                    "spaceBetween": 1
+                  }
+                }
+              }
+            </script>
+            <div class="swiper-wrapper flex">
+              <div class="swiper-slide flex-shrink-0 w-full">
+                <div class="testimonial-item">
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span> We asked Nazir to turn a rough concept into a clean, reliable web experience—and he delivered. His front-end craft with Tailwind and solid Django back-end practices meant our site shipped fast and stayed stable. Communication was clear, deadlines were met, and he handled feedback with zero drama. If you want someone who blends polish with practicality, Nazir is the one I recommend.  </span>
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                  <img
+                    src="assets/img/testimonials/testimonials-1.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Saul Goodman</h3>
+                  <h4>Ceo &amp; Founder</h4>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide flex-shrink-0 w-full">
+                <div class="testimonial-item ">
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span
+                      >Nazir is the rare developer who sweats the details. From components inspired by projects like Fylo and Loopstudios to responsive states and accessibility, his Tailwind implementations are crisp and dependable. Handoffs were painless, and he caught edge cases before they became bugs. Shipping with him feels calm and professional.</span
+                    >
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                  <img
+                    src="assets/img/testimonials/testimonials-2.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Sara Wilsson</h3>
+                  <h4>Designer</h4>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide flex-shrink-0 w-full">
+                <div class="testimonial-item">
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span
+                      >I needed a modern, fast website for my shop. Nazir built a clean landing experience—think Omnifood quality layouts—optimized images, and clear calls-to-action. Customers finally ‘get’ what we offer, and inquiries are simpler because the site answers most questions up front. Friendly, patient, and focused on real results.</span
+                    >
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                  <img
+                    src="assets/img/testimonials/testimonials-3.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Jena Karlis</h3>
+                  <h4>Store Owner</h4>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide flex-shrink-0 w-full">
+                <div class="testimonial-item">
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span
+                      >Our team needed a straightforward portal for students’ marks. Nazir built a focused Django solution (in the spirit of his Portal project) with clear navigation and reliable data handling. He communicates constraints honestly and proposes practical paths forward. Excellent collaboration from start to finish.</span
+                    >
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                  <img
+                    src="assets/img/testimonials/testimonials-4.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Matt Brandon</h3>
+                  <h4>University Admin</h4>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide flex-shrink-0 w-full">
+                <div class="testimonial-item">
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span
+                      >Nazir turned our idea into a working prototype quickly. His JavaScript work on interactive pieces—similar to the Mapty workout app—was thoughtful and clean, and he kept performance in mind. We iterated fast, tested with users, and he was always a step ahead with sensible improvements. Highly recommended.</span
+                    >
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                  <img
+                    src="assets/img/testimonials/testimonials-5.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>John Larson</h3>
+                  <h4>Entrepreneur</h4>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <!-- /Testimonials Section -->
+
+      <!-- Contact Section -->
+      <section id="contact" class="py-16 bg-gray-900 text-white">
+        <div class="container mx-auto mb-12">
+          <h2 class="text-3xl font-bold mb-4 text-white">Contact</h2>
+          <p class="text-gray-300">
+            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+            consectetur velit
+          </p>
+        </div>
+        <div class="container mx-auto flex flex-col lg:flex-row gap-8">
+          <div class="lg:w-1/3 w-full space-y-6">
+            <div class="flex items-start space-x-4">
+              <i class="bi bi-geo-alt text-2xl text-blue-400"></i>
+              <div>
+                <h3 class="font-semibold text-white">Address</h3>
+                <p class="text-gray-300">
+                  District 16, Kabul, Afghanistan
+                </p>
+              </div>
+            </div>
+            <div class="flex items-start space-x-4">
+              <i class="bi bi-telephone text-2xl text-blue-400"></i>
+              <div>
+                <h3 class="font-semibold text-white">Call Us</h3>
+                <p class="text-gray-300">+93 782 77 67 66</p>
+              </div>
+            </div>
+            <div class="flex items-start space-x-4">
+              <i class="bi bi-envelope text-2xl text-blue-400"></i>
+              <div>
+                <h3 class="font-semibold text-white">Email Us</h3>
+                <p class="text-gray-300">nazirsherzad12345@gmail.com</p>
+              </div>
+            </div>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13294.123456789!2d69.160652!3d34.543896!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38d16eb123456789%3A0xabcdef1234567890!2sKabul%2C%20Afghanistan!5e0!3m2!1sen!2saf!4v1692891234567!5m2!1sen!2saf"
+              frameborder="0"
+              class="w-full h-64 rounded-lg"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div class="lg:w-2/3 w-full">
+            <form
+              action=""
+              method=""
+              class="space-y-6 bg-gray-800 p-8 rounded-lg shadow"
+            >
+              <div class="flex flex-col md:flex-row gap-4">
+                <div class="flex-1">
+                  <label for="name-field" class="block mb-2">Your Name</label>
+                  <input
+                    type="text"
+                    name="name"
+                    id="name-field"
+                    class="w-full p-2 rounded bg-gray-700 text-white"
+                    required
+                  />
+                </div>
+                <div class="flex-1">
+                  <label for="email-field" class="block mb-2">Your Email</label>
+                  <input
+                    type="email"
+                    class="w-full p-2 rounded bg-gray-700 text-white"
+                    name="email"
+                    id="email-field"
+                    required
+                  />
+                </div>
+              </div>
+              <div>
+                <label for="subject-field" class="block mb-2">Subject</label>
+                <input
+                  type="text"
+                  class="w-full p-2 rounded bg-gray-700 text-white"
+                  name="subject"
+                  id="subject-field"
+                  required
+                />
+              </div>
+              <div>
+                <label for="message-field" class="block mb-2">Message</label>
+                <textarea
+                  class="w-full p-2 rounded bg-gray-700 text-white"
+                  name="message"
+                  rows="6"
+                  id="message-field"
+                  required
+                ></textarea>
+              </div>
+              <div class="text-center">
+                <button
+                  type="submit"
+                  class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded"
+                >
+                  Send Message
+                </button>
+              </div>
+            </form>
+          </div>
+          <!-- End Contact Form -->
+        </div>
+      </section>
+      <!-- /Contact Section -->
+    </main>
+
+    <footer id="footer" class="bg-gray-800 py-8 text-gray-300">
+      <div class="container mx-auto text-center">
+        <p>
+          © <span>Copyright</span>
+          <strong class="px-1 sitename">Nazir Sherzad Portfolio</strong>
+          <span>All Rights Reserved</span>
+        </p>
+        
+      </div>
+    </footer>
+
+  
+   <!-- PRELOADER -->
+<div id="preloader" class="fixed inset-0 z-[99999] grid place-items-center bg-slate-950 text-white transition-opacity duration-400">
+  <!-- subtle gradient glow -->
+  <div class="pointer-events-none absolute inset-0">
+    <div class="absolute -top-24 -left-24 h-96 w-96 rounded-full blur-3xl opacity-30 bg-cyan-500/40"></div>
+    <div class="absolute -bottom-24 -right-24 h-96 w-96 rounded-full blur-3xl opacity-30 bg-indigo-500/40"></div>
+  </div>
+
+  <div class="relative z-10 w-full max-w-sm px-8">
+    <!-- logo / mark (optional) -->
+    <div class="mx-auto mb-6 flex items-center justify-center gap-3">
+      <!-- replace this SVG with your logo if you want -->
+      <svg class="h-9 w-9" viewBox="0 0 24 24" fill="none">
+        <path d="M12 3l2.2 4.46L19 8.27l-3.5 3.41.83 4.86L12 14.77 7.67 16.54l.83-4.86L5 8.27l4.8-.81L12 3z" stroke="currentColor" stroke-width="1.4"/>
+      </svg>
+      <span class="text-lg tracking-wide/relaxed">Loading your experience…</span>
+    </div>
+
+    <!-- spinner -->
+    <div class="mx-auto mb-6 h-14 w-14 rounded-full border-4 border-white/20 border-t-white animate-spin"></div>
+
+    <!-- progress bar -->
+    <div class="rounded-xl bg-white/10 p-1">
+      <div class="h-2 w-full overflow-hidden rounded-lg bg-white/10">
+        <div id="preloader-bar" class="h-full w-0 rounded-lg bg-gradient-to-r from-cyan-400 to-indigo-400 transition-[width] duration-500 ease-out"></div>
+      </div>
+      <div class="mt-2 flex items-center justify-between text-sm text-white/80">
+        <span>Preparing assets</span>
+        <span id="preloader-percent">0%</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+    
+
+   
+    
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+    
+  </body>
+</html>
