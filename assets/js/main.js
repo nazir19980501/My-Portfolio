@@ -158,9 +158,10 @@
       offset: "80%",
       handler: function (direction) {
         let progress = item.querySelectorAll(".progress .progress-bar");
+        console.log(progress)
         progress.forEach((el) => {
           el.style.width = el.getAttribute("aria-valuenow") + "%";
-          el.classList.add("bg-sky-400");
+          // el.classList.add("bg-sky-400");
           el.classList.add("transition-all");
           el.classList.add("duration-1000");
         });
