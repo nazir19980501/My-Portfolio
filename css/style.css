@@ -753,6 +753,10 @@ video {
   height: 100vh;
 }
 
+.h-8 {
+  height: 2rem;
+}
+
 .w-0 {
   width: 0px;
 }
@@ -795,6 +799,10 @@ video {
 
 .w-\[55\%\] {
   width: 55%;
+}
+
+.w-8 {
+  width: 2rem;
 }
 
 .max-w-sm {
@@ -1143,6 +1151,18 @@ video {
 
 .pl-\[2px\] {
   padding-left: 2px;
+}
+
+.pl-\[\] {
+  padding-left: ;
+}
+
+.pl-\[3px\] {
+  padding-left: 3px;
+}
+
+.pl-\[3\.5px\] {
+  padding-left: 3.5px;
 }
 
 .text-center {
